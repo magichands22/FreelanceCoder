@@ -5,12 +5,13 @@
 }
 
 body{
-    background-image: url(imgfondo.png);
+    background-image: url(/resumen/resumen.png);
     background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 600px;
-    height: 550px;
+    background-size: 110px;
+    height: 100%;
+    margin-bottom: 100px;
 }
 
 
@@ -48,7 +49,7 @@ h1{
     
 }
 
-.list a{
+.list a {
     text-decoration: none;
     text-transform: capitalize;
     padding: 30px;
@@ -58,6 +59,7 @@ h1{
     font-size: 15px;
     
 }
+
 
 .list a:hover{
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -105,67 +107,133 @@ h1{
     background: rgba(61, 56, 56, 0.849);
 }
 
+/*-----------------EXPERIENCIA----------------*/
 
-/*------------------PAGINA------------------*/
 
-.presentacion{
-    width: 56%;
-    height: 300px;
-    position: absolute;
-    z-index: -10;
-    top: 160px;
-    left: 30px;
-    
-    
+
+.titulo_inicial{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px
 }
 
-.presentacion h1{
-    font-size: 35px;
-}
-
-.presentacion p{
-    font-size: 20px;
-    padding-left: 43px;
-    padding-top: 30px;
+#edu{
     color: white;
-    font-weight: 100;
-    line-height: 30px
-    ;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 830px;
+    margin-bottom: 10px;
 }
 
-.img-fer{
-    opacity: 50%;
-    padding: 30px;
+#laboral{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 720px;
+    margin-bottom: 10px;
 }
 
-.btn{
-    position: absolute;
-    top: 380px;
-    left: 75px;
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;  
-    outline: none;
-    border-radius: 5px;
-    border: none;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
-    background: #ff0a78;
-    
+.container_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 135px;
 }
 
-.btn:hover {
-    background-color: #ff6392;
-    top: 390px;
-  }
- 
+.front{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.title_edu{
+    display: flex;
+    color: rgb(212, 2, 82);
+    width: 70%;
+    height: 10%;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.p_edu{
+    display: flex;
+    width: 70%;
+    height: 10%;
+    color: white;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.p2_edu{
+    display: flex;
+    width: 70%;
+    height: 10%;
+    color: rgb(148, 148, 148);
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+#guion{
+    color: white;
+}
+
+.back{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.diseño{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+    margin-bottom: -60px;
+}
+
+.tec_container_dev{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px
+}
+
+.tec_container_diseño{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tecs{
+    padding: 0 15px 0 15px;
+    height: 80px;
+}
+
+.diseño_img{
+    padding: 0 25px 0 25px;
+    height: 60px;
+}
 
 @media (max-width: 768px){
     body{
        padding-top: 70px 20px 0;
+       
     }
 
     .head{
@@ -223,56 +291,4 @@ h1{
    .social{
     visibility: collapse;
    }
-
-   .presentacion{
-    width: 80%;
-    position: absolute;
-    z-index: -10;
-    left: 50px;
-    top: 100px;
 }
-
-.presentacion h1{
-    font-size: 35px;
-    text-align: center;
-    line-height: 40px;
-}
-
-.presentacion p{
-    font-size: 20px;
-    text-align: center;
-    padding-right: 40px;
-    color: white;
-    font-weight: 100;
-    line-height: 30px
-    ;
-}
-
-.btn{
-    position: absolute;
-    top: 450px;
-    left: 170px;
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;  
-    outline: none;
-    border-radius: 5px;
-    border: none;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
-    background: #ff0a78;
-    
-}
-
-.btn:hover {
-    background-color: #ff6392;
-    top: 460px;
-  }
-}
-
-
-
-  
