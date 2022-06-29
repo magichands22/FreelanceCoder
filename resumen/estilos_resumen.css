@@ -161,6 +161,19 @@ h1{
     font-size: 15px;
 }
 
+.title_edu::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: rgb(212, 2, 82);
+    border-radius: 10px;
+    position: absolute;
+    left: 160px;
+    
+}
+
+
+
 .p_edu{
     display: flex;
     width: 70%;
@@ -170,6 +183,8 @@ h1{
     text-transform: capitalize;
     font-size: 15px;
 }
+
+
 
 .p2_edu{
     display: flex;
