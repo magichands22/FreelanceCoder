@@ -164,13 +164,13 @@ h1 {
 
 /* Estilos Contacto */
 .title {
-  border-bottom: 3px solid rgba(184, 23, 85, 0.849);
-  margin: 3.2rem auto 0 auto;
-  width: 8rem;
+  border-bottom: 2px solid rgba(184, 23, 85, 0.849);
+  margin: 0 auto;
+  width: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 2rem1;
 }
 
 .contact-section {
