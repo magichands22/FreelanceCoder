@@ -164,12 +164,13 @@ h1 {
 
 /* Estilos Portfolio */
 .title {
-  border-bottom: 3px solid rgba(184, 23, 85, 0.849);
+  border-bottom: 2px solid rgba(184, 23, 85, 0.849);
   margin: 0 auto;
-  width: 8rem;
+  width: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 2rem;
 }
 
 section {
@@ -246,8 +247,8 @@ section ul li.active {
 .photo .box .itemBox .details {
   position: absolute;
   top: 90px;
-  left: 90px;
-  right: 90px;
+  left: 50px;
+  right: 50px;
   bottom: 90px;
   color: white;
   z-index: -1;
@@ -260,18 +261,18 @@ section ul li.active {
 .photo .box .itemBox .details .content {
   position: absolute;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
 }
 .photo .box .itemBox .details .content h2 {
   margin: 0;
   padding: 0;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 }
 .photo .box .itemBox .details .content p {
   margin: 10px 0 0;
   padding: 0;
-  font-size: 20px;
-  font-weight: lighter;
+  font-size: 26px;
+  font-weight: 100;
 }
 /* FIN Estilos Portfolio */

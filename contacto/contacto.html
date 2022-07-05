@@ -10,7 +10,7 @@
       src="https://kit.fontawesome.com/44e81db38f.js"
       crossorigin="anonymous"
     ></script>
-    <title>Fernanda Alberici - imgs</title>
+    <title>Fernanda Alberici - Contacto</title>
   </head>
   <body>
     <header class="head">
@@ -20,10 +20,12 @@
           <i class="fas fa-bars"></i>
         </button>
         <ul class="navmenu">
-          <li class="list"><a href="">inicio</a></li>
-          <li class="list"><a href="">sobre mi</a></li>
-          <li class="list"><a href="">portfolio</a></li>
-          <li class="list"><a href="">contacto</a></li>
+          <li class="list"><a href="/inicio/index.html">inicio</a></li>
+          <li class="list"><a href="/sobremi/sobremi.html">sobre mi</a></li>
+          <li class="list">
+            <a href="/portfolio/portfolio.html">portfolio</a>
+          </li>
+          <li class="list"><a href="/contacto/contacto.html">contacto</a></li>
         </ul>
         <div class="social">
           <ul>
@@ -46,10 +48,14 @@
       </nav>
     </header>
 
-    <h1 class="title">CONTACTO</h1>
+    <h1 class="title">Contacto</h1>
 
     <div class="contact-section">
-      <form class="contact-form" action="index.html" method="post">
+      <form
+        class="contact-form"
+        action="https://formsubmit.co/elmaildeuchi@gmail.com"
+        method="POST"
+      >
         <section class="contact-info-container">
           <div class="contact-info">
             <i class="icon fa fa-whatsapp fa-xl"></i>(011) 3115 - 4419
@@ -60,25 +66,38 @@
         </section>
         <input
           type="text"
+          name="Nombre"
           class="contact-form-text"
           placeholder="Nombre..."
           required
         />
         <input
           type="email"
+          name="Email"
           class="contact-form-text"
           placeholder="Email..."
           required
         />
-        <!-- <input
-          type="text"
+        <input
+          type="hidden"
+          name="_subject"
+          value="Hola Fernanda, tenes una nueva consulta en tu sitio web"
+        />
+        <input type="hidden" name="_captcha" value="false" />
+        <textarea
           class="contact-form-text"
+          name="Mensaje"
           placeholder="Mensaje..."
-          required
-        /> -->
-        <textarea class="contact-form-text" placeholder="Mensaje..."></textarea>
-        <input type="submit" class="contact-form-btn" value="Enviar" />
+        ></textarea>
+        <input
+          onclick="sweetAlert('Su consulta fue enviada', 'En breve me comunicaré con vos', 'success');"
+          data-toggle="modal"
+          type="submit"
+          class="contact-form-btn"
+          value="Enviar"
+        />
       </form>
     </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </body>
 </html>
