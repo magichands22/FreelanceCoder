@@ -107,6 +107,8 @@ h1{
     background: rgba(61, 56, 56, 0.849);
 }
 
+
+
 /*-----------------EXPERIENCIA----------------*/
 
 
@@ -168,10 +170,50 @@ h1{
     background-color: rgb(212, 2, 82);
     border-radius: 10px;
     position: absolute;
+    margin-top: 3px;
     left: 160px;
     
 }
 
+#l1::before{
+    content: "";
+    width: 5px;
+    height: 120px;
+    background-color: rgb(212, 2, 82);
+    position: absolute;
+    margin-top: -8px;
+    left: 165px;
+}
+
+#l2::before{
+    content: "";
+    width: 5px;
+    height: 140px;
+    background-color: rgb(212, 2, 82);
+    position: absolute;
+    margin-top: -8px;
+    left: 165px;
+}
+
+#l3::after{
+    content: "";
+    width: 5px;
+    height: 140px;
+    background-color: rgb(212, 2, 82);
+    position: absolute;
+    margin-top: 15px;
+    left: 165px;
+}
+
+#l4::after{
+    content: "";
+    width: 5px;
+    height: 120px;
+    background-color: rgb(212, 2, 82);
+    position: absolute;
+    margin-top: -8px;
+    left: 165px;
+}
 
 
 .p_edu{
@@ -209,6 +251,10 @@ h1{
     margin-bottom: 50px;
     line-height: 25px;
 }
+
+
+/*-----------------HERRAMIENTAS----------------*/
+
 
 .diseño{
     width: 100%;
@@ -250,6 +296,8 @@ h1{
        padding-top: 70px 20px 0;
        
     }
+
+    /*-----------------HEADER----------------*/
 
     .head{
         height: 60px;
@@ -306,4 +354,189 @@ h1{
    .social{
     visibility: collapse;
    }
+
+   /*-----------------EXPERIENCIA----------------*/
+
+
+   .titulo_inicial{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#edu{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 830px;
+    margin-bottom: 10px;
+}
+
+#laboral{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.container_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 135px;
+}
+
+.front{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.title_edu{
+    display: flex;
+    color: rgb(212, 2, 82);
+    width: 70%;
+    height: 10%;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.title_edu::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: rgb(212, 2, 82);
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 3px;
+    left: 40px;
+    
+}
+
+#l1::before{
+    content: "";
+    width: 5px;
+    height: 170px;
+    background-color: rgb(212, 2, 82);
+    position: absolute;
+    margin-top: -9px;
+    left: 45px;
+}
+
+#l2::before{
+    content: "";
+    width: 5px;
+    height: 200px;
+    background-color: rgb(212, 2, 82);
+    position: absolute;
+    margin-top: -8px;
+    left: 45px;
+}
+
+#l3::after{
+    content: "";
+    width: 5px;
+    height: 200px;
+    background-color: rgb(212, 2, 82);
+    position: absolute;
+    margin-top: 15px;
+    left: 45px;
+}
+
+#l4::after{
+    content: "";
+    width: 5px;
+    height: 170px;
+    background-color: rgb(212, 2, 82);
+    position: absolute;
+    margin-top: -8px;
+    left: 45px;
+}
+
+
+.p_edu{
+    display: flex;
+    width: 70%;
+    height: 10%;
+    color: white;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+
+
+.p2_edu{
+    display: flex;
+    width: 70%;
+    height: 10%;
+    color: rgb(148, 148, 148);
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+#guion{
+    color: white;
+}
+
+.back{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+/*-----------------HERRAMIENTAS----------------*/
+
+
+.diseño{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+    margin-bottom: -60px;
+}
+
+.tec_container_dev{
+    display: grid;
+    grid-template-columns: repeat(4,90px);  
+    grid-template-rows: repeat(4,90px); 
+    margin-bottom: -200px;
+}
+
+.tec_container_diseño{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tecs{
+    padding: 0 10px 0 10px;
+    height: 50px;
+}
+
+#js-tec{
+    margin-left: -15px;
+}
+
+.diseño_img{
+    padding: 0 20px 0 20px;
+    height: 40px;
+}
+
 }
